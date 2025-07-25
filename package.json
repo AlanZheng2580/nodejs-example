@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:ci": "jest --coverage --reporters=default --reporters=jest-junit --coverageDirectory=out/coverage"
+    "test:ci": "jest --coverage --reporters=default --reporters=jest-junit --coverageDirectory=out/coverage --coverageReporters=cobertura"
   },
   "keywords": [],
   "author": "",
