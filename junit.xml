@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.597">
+  <testsuite name="API Server" errors="0" failures="0" skipped="0" timestamp="2025-07-25T08:54:48" time="0.525" tests="1">
+    <testcase classname="API Server should return path, method, and headers" name="API Server should return path, method, and headers" time="0.067">
+    </testcase>
+  </testsuite>
+</testsuites>

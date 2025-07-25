@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:ci": "jest --coverage --reporters=default --reporters=jest-junit --coverageDirectory=out/coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "jest-junit": "^16.0.0",
+    "supertest": "^7.1.4"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
